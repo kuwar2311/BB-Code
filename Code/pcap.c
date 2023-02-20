@@ -170,7 +170,6 @@ void logger(char *log,char *module)
 	}
 	bzero(sentence,strlen(sentence));
 	free(sentence);
-	free(file_name);	
-	system("sudo chown -R cdac:cdac ../logs/");
+	free(file_name);
 }
 
