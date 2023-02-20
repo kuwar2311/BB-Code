@@ -129,5 +129,6 @@ int set_data_control()
 	//honeypot_rules();	
 	system("sudo ufw disable > /dev/null");
 	system("systemctl disable docker > /dev/null");
+	system("chown -R cdac:cdac ../../BB_Code_1_5");
 	return 0;
 }
