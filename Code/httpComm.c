@@ -16,7 +16,7 @@
 
 char *response_headers = NULL;
 long curl_time_out_data = 3600;
-long curl_time_out_conf = 120;
+long curl_time_out_conf = 300;
 
 
 /****************************************************************************
