@@ -1,3 +1,5 @@
+Version: 1.5.5
+
 Release Date - 31-10-2022
 Version-1.5.0
 1)Docker Repository
@@ -26,4 +28,4 @@ Version-1.5.4
 Release Date - 19-01-2023
 Version-1.5.5
 1) Date time sync removed before all the request. time sync will callup once at code startup
-2) Logger  updated for configuration module. 
+2) Logger  updated for configuration module.
