@@ -1,4 +1,5 @@
 DIR="/home/pi/BB_Code_1_5/Code/"
+chmod 777 /home/pi/start_node.sh
 if [ -d "$DIR" ]; then
   echo "'/home/pi/BB_Code_1_5/' folder exist ..."
   chown -R pi:pi /home/pi/BB_Code_1_5/
