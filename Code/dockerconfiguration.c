@@ -244,7 +244,7 @@ int configure_container(struct Honeypot *hp){
 
 			fp = fopen("health_config.conf","wb");
 			if(fp!=NULL){
-				fprintf(fp,"{\"node_id\": \"%d\", \"hp_name\": \"%s\", \"u_conf_id\": \"%d\", \"data_timer\": 600, \"log_file_path\": \"/var/log/healthData.log\"}", node.node_id, hpConfig->hp_name, hpConfig->uconf_id);
+				fprintf(fp,"{\"node_id\": \"%d\", \"hp_name\": \"%s\", \"u_conf_id\": \"%d\", \"data_timer\": 900, \"log_file_path\": \"/var/log/healthData.log\"}", node.node_id, hpConfig->hp_name, hpConfig->uconf_id);
 				fclose(fp);
 				copy_base_to_container(hpConfig,"health_config.conf","/root/");
 			}
