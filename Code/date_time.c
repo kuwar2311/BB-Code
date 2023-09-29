@@ -78,7 +78,7 @@ int time_sync(char *server_ip){
 			printf("\nFailed to connect the Server (%s)\n",server_ip);
 			printf("Please verify the server's Port 5000 is opened for the sync of server time\n");
 			printf("Please check your network configuration or may be server is down\n");
-			sleep(60);
+			sleep(300);
 		}
 		else
 			break;
