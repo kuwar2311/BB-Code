@@ -231,12 +231,11 @@ int data_collect_from_docker(struct Honeypot *hpConfig){
 				sprintf(command,"sudo rm -rf %s",data_path);
 				flag=system(command);
 				sleep(5);*/
-
 				break;
 			}
 			logger("Error during sending pcap data.","PCAP-Data-Module");
 			printf("\nRetrying to send collected data.\n");
-			sleep(5);
+			sleep(300);
 		}		
 	}
 
