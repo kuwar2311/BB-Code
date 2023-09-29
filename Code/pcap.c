@@ -142,7 +142,7 @@ int pcap_data_collection()
 			}
 			logger("Error during sending pcap data.","PCAP-Data-Module");
 			printf("\nRetrying to send pcap data.\n");
-			sleep(5);
+			sleep(300);
 		}		
 	}
 	free(cmd);
